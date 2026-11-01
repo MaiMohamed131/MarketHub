@@ -1,0 +1,7 @@
+{
+  "products": 48,
+  "categories": 12,
+  "apiChecks": "passed",
+  "imagesChecked": 92,
+  "imageFailures": []
+}

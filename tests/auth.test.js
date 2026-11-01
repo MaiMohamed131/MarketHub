@@ -1,0 +1,12 @@
+import { jest, test, expect } from '@jest/globals';
+import request from 'supertest';
+process.env.JWT_ACCESS_SECRET='test-secret-that-is-at-least-thirty-two-characters';
+const {app}=await import('../dist/app.js');
+test('security headers and unauthenticated access',async()=>{const r=await request(app).get('/api/users/me');expect(r.status).toBe(401);expect(r.headers['x-content-type-options']).toBe('nosniff');});
+test('registration rejects privilege escalation',async()=>{const r=await request(app).post('/api/auth/register').send({name:'Example',email:'test@example.com',password:'StrongPassword123',role:'admin'});expect(r.status).toBe(400);});
+test('invalid authentication inputs rejected before database access',async()=>{for(const route of ['register','login'])expect((await request(app).post('/api/auth/'+route).send({email:{$ne:null},password:'short'})).status).toBe(400);});
+test('cross-origin mutations rejected',async()=>{expect((await request(app).post('/api/auth/logout').set('Origin','https://evil.example')).status).toBe(403);});
+test('missing refresh cookie rejected',async()=>{expect((await request(app).post('/api/auth/refresh')).status).toBe(401);});
+test('logout clears HTTP-only refresh cookie',async()=>{const r=await request(app).post('/api/auth/logout');expect(r.status).toBe(204);expect(r.headers['set-cookie'][0]).toContain('HttpOnly');});
+test('malformed recovery tokens rejected',async()=>{expect((await request(app).post('/api/auth/reset-password').send({token:'invalid',password:'StrongPassword123'})).status).toBe(400);});
+test('email service absence is explicit',async()=>{expect((await request(app).post('/api/auth/request-verify-email').send({email:'test@example.com'})).status).toBe(503);});

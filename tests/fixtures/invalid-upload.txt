@@ -1,0 +1,1 @@
+Deliberately invalid browser upload test fixture.

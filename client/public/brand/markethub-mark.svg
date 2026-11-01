@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <title>MarketHub</title>
+  <rect width="64" height="64" rx="18" fill="#173D32"/>
+  <path d="M25 25v-6a7 7 0 0 1 14 0v6" stroke="#FAF8F0" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M20 24h24l3.6 23.4a4 4 0 0 1-4 4.6H20.4a4 4 0 0 1-4-4.6L20 24Z" fill="#FAF8F0"/>
+  <path d="m25 36 5 5 9-10" stroke="#173D32" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

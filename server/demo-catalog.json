@@ -1,0 +1,998 @@
+{
+  "categories": [
+    {
+      "name": "Electronics",
+      "slug": "electronics"
+    },
+    {
+      "name": "Mobile Phones & Accessories",
+      "slug": "mobile-phones"
+    },
+    {
+      "name": "Computers & Laptops",
+      "slug": "computers-laptops"
+    },
+    {
+      "name": "Fashion & Clothing",
+      "slug": "fashion-clothing"
+    },
+    {
+      "name": "Shoes & Bags",
+      "slug": "shoes-bags"
+    },
+    {
+      "name": "Home & Living",
+      "slug": "home-living"
+    },
+    {
+      "name": "Kitchen & Appliances",
+      "slug": "kitchen-appliances"
+    },
+    {
+      "name": "Beauty & Personal Care",
+      "slug": "beauty-personal-care"
+    },
+    {
+      "name": "Sports & Fitness",
+      "slug": "sports-fitness"
+    },
+    {
+      "name": "Toys & Games",
+      "slug": "toys-games"
+    },
+    {
+      "name": "Books & Stationery",
+      "slug": "books-stationery"
+    },
+    {
+      "name": "Automotive Accessories",
+      "slug": "automotive-accessories"
+    }
+  ],
+  "products": [
+    {
+      "demoKey": "markethub-v2-electronics-1",
+      "name": "Apple AirPods Max Silver",
+      "description": "Premium wireless headphones for focused listening and everyday comfort. Apple AirPods Max Silver. Development demonstration listing with illustrative specifications.",
+      "price": 39999,
+      "originalPrice": 49999,
+      "brand": "Apple",
+      "slug": "electronics",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods-max-silver/1.webp"
+      ],
+      "stock": 32,
+      "featured": true,
+      "specifications": {
+        "Brand": "Apple",
+        "Connectivity": "Wireless",
+        "Product type": "Demonstration listing"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-mobile-phones-1",
+      "name": "iPhone 5s",
+      "description": "The iPhone 5s is a classic smartphone known for its compact design and advanced features during its release. While it's an older model, it still provides a reliable user experience. Development demonstration listing with illustrative specifications.",
+      "price": 19999,
+      "originalPrice": 22964,
+      "brand": "Apple",
+      "slug": "mobile-phones",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/1.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/2.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/iphone-5s/3.webp"
+      ],
+      "stock": 60,
+      "featured": true,
+      "specifications": {
+        "Brand": "Apple",
+        "SKU": "SMA-APP-IPH-121",
+        "Connectivity": "Mobile phone"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-computers-laptops-1",
+      "name": "Apple MacBook Pro 14 Inch Space Grey",
+      "description": "The MacBook Pro 14 Inch in Space Grey is a powerful and sleek laptop, featuring Apple's M1 Pro chip for exceptional performance and a stunning Retina display. Development demonstration listing; specifications and images are illustrative.",
+      "price": 199999,
+      "originalPrice": 209841,
+      "brand": "Apple",
+      "slug": "computers-laptops",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/1.webp",
+        "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/2.webp",
+        "https://cdn.dummyjson.com/product-images/laptops/apple-macbook-pro-14-inch-space-grey/3.webp"
+      ],
+      "stock": 24,
+      "featured": true,
+      "specifications": {
+        "Brand": "Apple",
+        "SKU": "LAP-APP-APP-078",
+        "Warranty": "3 year warranty"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-fashion-clothing-1",
+      "name": "Blue & Black Check Shirt",
+      "description": "The Blue & Black Check Shirt is a stylish and comfortable men's shirt featuring a classic check pattern. Made from high-quality fabric, it's suitable for both casual and semi-formal occasions. Development demonstration listing; specifications and images are illustrative.",
+      "price": 2999,
+      "originalPrice": 3543,
+      "brand": "Fashion Trends",
+      "slug": "fashion-clothing",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/1.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/2.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shirts/blue-&-black-check-shirt/3.webp"
+      ],
+      "stock": 38,
+      "featured": true,
+      "specifications": {
+        "Brand": "Fashion Trends",
+        "SKU": "MEN-FAS-BLU-083",
+        "Warranty": "3 year warranty"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-shoes-bags-1",
+      "name": "Nike Air Jordan 1 Red And Black",
+      "description": "The Nike Air Jordan 1 in Red and Black is an iconic basketball sneaker known for its stylish design and high-performance features, making it a favorite among sneaker enthusiasts and athletes. Development demonstration listing; specifications and images are illustrative.",
+      "price": 14999,
+      "originalPrice": 15644,
+      "brand": "Nike",
+      "slug": "shoes-bags",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/1.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/2.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shoes/nike-air-jordan-1-red-and-black/3.webp"
+      ],
+      "stock": 7,
+      "featured": true,
+      "specifications": {
+        "Brand": "Nike",
+        "SKU": "MEN-NIK-NIK-088",
+        "Warranty": "1 year warranty"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-home-living-1",
+      "name": "Annibale Colombo Bed",
+      "description": "The Annibale Colombo Bed is a luxurious and elegant bed frame, crafted with high-quality materials for a comfortable and stylish bedroom. Development demonstration listing; specifications and images are illustrative.",
+      "price": 189999,
+      "originalPrice": 207808,
+      "brand": "Annibale Colombo",
+      "slug": "home-living",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/1.webp",
+        "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/2.webp",
+        "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-bed/3.webp"
+      ],
+      "stock": 60,
+      "featured": true,
+      "specifications": {
+        "Brand": "Annibale Colombo",
+        "SKU": "FUR-ANN-ANN-011",
+        "Warranty": "1 year warranty"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-kitchen-appliances-1",
+      "name": "Bamboo Spatula",
+      "description": "The Bamboo Spatula is a versatile kitchen tool made from eco-friendly bamboo. Ideal for flipping, stirring, and serving various dishes. Development demonstration listing; specifications and images are illustrative.",
+      "price": 799,
+      "originalPrice": 822,
+      "brand": "MarketHub",
+      "slug": "kitchen-appliances",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/bamboo-spatula/1.webp"
+      ],
+      "stock": 37,
+      "featured": true,
+      "specifications": {
+        "Brand": "MarketHub",
+        "SKU": "KIT-BRD-BAM-048",
+        "Warranty": "1 month warranty"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-beauty-personal-care-1",
+      "name": "Essence Mascara Lash Princess",
+      "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula. Development demonstration listing; specifications and images are illustrative.",
+      "price": 999,
+      "originalPrice": 1116,
+      "brand": "Essence",
+      "slug": "beauty-personal-care",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/1.webp"
+      ],
+      "stock": 60,
+      "featured": true,
+      "specifications": {
+        "Brand": "Essence",
+        "SKU": "BEA-ESS-ESS-001",
+        "Warranty": "1 week warranty"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-sports-fitness-1",
+      "name": "American Football",
+      "description": "The American Football is a classic ball used in American football games. It is designed for throwing and catching, making it an essential piece of equipment for the sport. Development demonstration listing; specifications and images are illustrative.",
+      "price": 1999,
+      "originalPrice": 2103,
+      "brand": "MarketHub",
+      "slug": "sports-fitness",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/american-football/1.webp"
+      ],
+      "stock": 53,
+      "featured": true,
+      "specifications": {
+        "Brand": "MarketHub",
+        "SKU": "SPO-BRD-AME-137",
+        "Warranty": "6 months warranty"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-toys-games-1",
+      "name": "Wooden Building Blocks Set",
+      "description": "A thoughtfully designed everyday favorite. Wooden Building Blocks Set is a demonstration product with an illustrative product image. Check the selling store for final product specifications.",
+      "price": 2499,
+      "originalPrice": 2999,
+      "brand": "MarketHub",
+      "slug": "toys-games",
+      "images": [
+        "/images/toys-games-0.svg"
+      ],
+      "stock": 24,
+      "featured": true,
+      "specifications": {
+        "Collection": "MarketHub Everyday",
+        "Product type": "Demonstration listing"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-books-stationery-1",
+      "name": "The Everyday Ideas Notebook",
+      "description": "A thoughtfully designed everyday favorite. The Everyday Ideas Notebook is a demonstration product with an illustrative product image. Check the selling store for final product specifications.",
+      "price": 2499,
+      "originalPrice": 2999,
+      "brand": "MarketHub",
+      "slug": "books-stationery",
+      "images": [
+        "/images/books-stationery-0.svg"
+      ],
+      "stock": 24,
+      "featured": true,
+      "specifications": {
+        "Collection": "MarketHub Everyday",
+        "Product type": "Demonstration listing"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-automotive-accessories-1",
+      "name": "Universal Car Phone Mount",
+      "description": "Universal Car Phone Mount for a better organized journey. Development demonstration product with an illustrative image.",
+      "price": 2499,
+      "originalPrice": 3299,
+      "brand": "MarketHub",
+      "slug": "automotive-accessories",
+      "images": [
+        "/images/automotive-0.svg"
+      ],
+      "stock": 34,
+      "featured": true,
+      "specifications": {
+        "Collection": "MarketHub Auto",
+        "Product type": "Demonstration accessory"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-electronics-2",
+      "name": "Apple Airpods",
+      "description": "Smart audio for your everyday listening. Apple Airpods. Development demonstration listing with illustrative specifications.",
+      "price": 7999,
+      "originalPrice": 9999,
+      "brand": "Apple",
+      "slug": "electronics",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpods/1.webp"
+      ],
+      "stock": 60,
+      "featured": false,
+      "specifications": {
+        "Brand": "Apple",
+        "Connectivity": "Wireless",
+        "Product type": "Demonstration listing"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-mobile-phones-2",
+      "name": "iPhone 6",
+      "description": "The iPhone 6 is a stylish and capable smartphone with a larger display and improved performance. It introduced new features and design elements, making it a popular choice in its time. Development demonstration listing with illustrative specifications.",
+      "price": 29999,
+      "originalPrice": 32150,
+      "brand": "Apple",
+      "slug": "mobile-phones",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/1.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/2.webp",
+        "https://cdn.dummyjson.com/product-images/smartphones/iphone-6/3.webp"
+      ],
+      "stock": 60,
+      "featured": false,
+      "specifications": {
+        "Brand": "Apple",
+        "SKU": "SMA-APP-IPH-122",
+        "Connectivity": "Mobile phone"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-computers-laptops-2",
+      "name": "Asus Zenbook Pro Dual Screen Laptop",
+      "description": "The Asus Zenbook Pro Dual Screen Laptop is a high-performance device with dual screens, providing productivity and versatility for creative professionals. Development demonstration listing; specifications and images are illustrative.",
+      "price": 179999,
+      "originalPrice": 202565,
+      "brand": "Asus",
+      "slug": "computers-laptops",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/1.webp",
+        "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/2.webp",
+        "https://cdn.dummyjson.com/product-images/laptops/asus-zenbook-pro-dual-screen-laptop/3.webp"
+      ],
+      "stock": 45,
+      "featured": false,
+      "specifications": {
+        "Brand": "Asus",
+        "SKU": "LAP-ASU-ASU-079",
+        "Warranty": "3 year warranty"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-fashion-clothing-2",
+      "name": "Gigabyte Aorus Men Tshirt",
+      "description": "The Gigabyte Aorus Men Tshirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style. Development demonstration listing; specifications and images are illustrative.",
+      "price": 2499,
+      "originalPrice": 2523,
+      "brand": "Gigabyte",
+      "slug": "fashion-clothing",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/1.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/2.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shirts/gigabyte-aorus-men-tshirt/3.webp"
+      ],
+      "stock": 60,
+      "featured": false,
+      "specifications": {
+        "Brand": "Gigabyte",
+        "SKU": "MEN-GIG-GIG-084",
+        "Warranty": "3 year warranty"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-shoes-bags-2",
+      "name": "Nike Baseball Cleats",
+      "description": "Nike Baseball Cleats are designed for maximum traction and performance on the baseball field. They provide stability and support for players during games and practices. Development demonstration listing; specifications and images are illustrative.",
+      "price": 7999,
+      "originalPrice": 9760,
+      "brand": "Nike",
+      "slug": "shoes-bags",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mens-shoes/nike-baseball-cleats/1.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shoes/nike-baseball-cleats/2.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shoes/nike-baseball-cleats/3.webp"
+      ],
+      "stock": 12,
+      "featured": false,
+      "specifications": {
+        "Brand": "Nike",
+        "SKU": "MEN-NIK-NIK-089",
+        "Warranty": "6 months warranty"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-home-living-2",
+      "name": "Annibale Colombo Sofa",
+      "description": "The Annibale Colombo Sofa is a sophisticated and comfortable seating option, featuring exquisite design and premium upholstery for your living room. Development demonstration listing; specifications and images are illustrative.",
+      "price": 249999,
+      "originalPrice": 292055,
+      "brand": "Annibale Colombo",
+      "slug": "home-living",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/1.webp",
+        "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/2.webp",
+        "https://cdn.dummyjson.com/product-images/furniture/annibale-colombo-sofa/3.webp"
+      ],
+      "stock": 60,
+      "featured": false,
+      "specifications": {
+        "Brand": "Annibale Colombo",
+        "SKU": "FUR-ANN-ANN-012",
+        "Warranty": "Lifetime warranty"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-kitchen-appliances-2",
+      "name": "Black Aluminium Cup",
+      "description": "The Black Aluminium Cup is a stylish and durable cup suitable for both hot and cold beverages. Its sleek black design adds a modern touch to your drinkware collection. Development demonstration listing; specifications and images are illustrative.",
+      "price": 599,
+      "originalPrice": 710,
+      "brand": "MarketHub",
+      "slug": "kitchen-appliances",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-aluminium-cup/1.webp",
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-aluminium-cup/2.webp"
+      ],
+      "stock": 60,
+      "featured": false,
+      "specifications": {
+        "Brand": "MarketHub",
+        "SKU": "KIT-BRD-BLA-049",
+        "Warranty": "1 year warranty"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-beauty-personal-care-2",
+      "name": "Eyeshadow Palette with Mirror",
+      "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application. Development demonstration listing; specifications and images are illustrative.",
+      "price": 1999,
+      "originalPrice": 2443,
+      "brand": "Glamour Beauty",
+      "slug": "beauty-personal-care",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/beauty/eyeshadow-palette-with-mirror/1.webp"
+      ],
+      "stock": 34,
+      "featured": false,
+      "specifications": {
+        "Brand": "Glamour Beauty",
+        "SKU": "BEA-GLA-EYE-002",
+        "Warranty": "1 year warranty"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-sports-fitness-2",
+      "name": "Baseball Ball",
+      "description": "The Baseball Ball is a standard baseball used in baseball games. It features a durable leather cover and is designed for pitching, hitting, and fielding in the game of baseball. Development demonstration listing; specifications and images are illustrative.",
+      "price": 899,
+      "originalPrice": 915,
+      "brand": "MarketHub",
+      "slug": "sports-fitness",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/baseball-ball/1.webp"
+      ],
+      "stock": 60,
+      "featured": false,
+      "specifications": {
+        "Brand": "MarketHub",
+        "SKU": "SPO-BRD-BAS-138",
+        "Warranty": "6 months warranty"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-toys-games-2",
+      "name": "Classic Strategy Board Game",
+      "description": "A thoughtfully designed everyday favorite. Classic Strategy Board Game is a demonstration product with an illustrative product image. Check the selling store for final product specifications.",
+      "price": 3499,
+      "originalPrice": 4499,
+      "brand": "MarketHub",
+      "slug": "toys-games",
+      "images": [
+        "/images/toys-games-1.svg"
+      ],
+      "stock": 24,
+      "featured": false,
+      "specifications": {
+        "Collection": "MarketHub Everyday",
+        "Product type": "Demonstration listing"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-books-stationery-2",
+      "name": "Creative Living Hardcover",
+      "description": "A thoughtfully designed everyday favorite. Creative Living Hardcover is a demonstration product with an illustrative product image. Check the selling store for final product specifications.",
+      "price": 3499,
+      "originalPrice": 4499,
+      "brand": "MarketHub",
+      "slug": "books-stationery",
+      "images": [
+        "/images/books-stationery-1.svg"
+      ],
+      "stock": 24,
+      "featured": false,
+      "specifications": {
+        "Collection": "MarketHub Everyday",
+        "Product type": "Demonstration listing"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-automotive-accessories-2",
+      "name": "Portable Digital Tire Inflator",
+      "description": "Portable Digital Tire Inflator for a better organized journey. Development demonstration product with an illustrative image.",
+      "price": 5999,
+      "originalPrice": 7499,
+      "brand": "MarketHub",
+      "slug": "automotive-accessories",
+      "images": [
+        "/images/automotive-1.svg"
+      ],
+      "stock": 52,
+      "featured": false,
+      "specifications": {
+        "Collection": "MarketHub Auto",
+        "Product type": "Demonstration accessory"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-electronics-3",
+      "name": "Amazon Echo Plus",
+      "description": "Smart audio for your everyday listening. Amazon Echo Plus. Development demonstration listing with illustrative specifications.",
+      "price": 12999,
+      "originalPrice": 14999,
+      "brand": "Amazon",
+      "slug": "electronics",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/amazon-echo-plus/1.webp"
+      ],
+      "stock": 40,
+      "featured": false,
+      "specifications": {
+        "Brand": "Amazon",
+        "Connectivity": "Wireless",
+        "Product type": "Demonstration listing"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-mobile-phones-3",
+      "name": "iPhone 12 Silicone Case with MagSafe Plum",
+      "description": "A soft silicone phone case for iPhone 12 with MagSafe compatibility. Development demonstration product with illustrative specifications.",
+      "price": 2999,
+      "originalPrice": 3999,
+      "brand": "Apple",
+      "slug": "mobile-phones",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/1.webp",
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/iphone-12-silicone-case-with-magsafe-plum/2.webp"
+      ],
+      "stock": 59,
+      "featured": false,
+      "specifications": {
+        "Brand": "Apple",
+        "Compatibility": "iPhone 12",
+        "Product type": "Demonstration phone case"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-computers-laptops-3",
+      "name": "Huawei Matebook X Pro",
+      "description": "The Huawei Matebook X Pro is a slim and stylish laptop with a high-resolution touchscreen display, offering a premium experience for users on the go. Development demonstration listing; specifications and images are illustrative.",
+      "price": 139999,
+      "originalPrice": 154490,
+      "brand": "Huawei",
+      "slug": "computers-laptops",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/1.webp",
+        "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/2.webp",
+        "https://cdn.dummyjson.com/product-images/laptops/huawei-matebook-x-pro/3.webp"
+      ],
+      "stock": 60,
+      "featured": false,
+      "specifications": {
+        "Brand": "Huawei",
+        "SKU": "LAP-HUA-HUA-080",
+        "Warranty": "No warranty"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-fashion-clothing-3",
+      "name": "Man Plaid Shirt",
+      "description": "The Man Plaid Shirt is a timeless and versatile men's shirt with a classic plaid pattern. Its comfortable fit and casual style make it a wardrobe essential for various occasions. Development demonstration listing; specifications and images are illustrative.",
+      "price": 3499,
+      "originalPrice": 4347,
+      "brand": "Classic Wear",
+      "slug": "fashion-clothing",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/1.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/2.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shirts/man-plaid-shirt/3.webp"
+      ],
+      "stock": 60,
+      "featured": false,
+      "specifications": {
+        "Brand": "Classic Wear",
+        "SKU": "MEN-CLA-PLA-085",
+        "Warranty": "1 week warranty"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-shoes-bags-3",
+      "name": "Puma Future Rider Trainers",
+      "description": "The Puma Future Rider Trainers offer a blend of retro style and modern comfort. Perfect for casual wear, these trainers provide a fashionable and comfortable option for everyday use. Development demonstration listing; specifications and images are illustrative.",
+      "price": 8999,
+      "originalPrice": 9394,
+      "brand": "Puma",
+      "slug": "shoes-bags",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mens-shoes/puma-future-rider-trainers/1.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shoes/puma-future-rider-trainers/2.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shoes/puma-future-rider-trainers/3.webp"
+      ],
+      "stock": 60,
+      "featured": false,
+      "specifications": {
+        "Brand": "Puma",
+        "SKU": "MEN-PUM-PUM-090",
+        "Warranty": "5 year warranty"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-home-living-3",
+      "name": "Bedside Table African Cherry",
+      "description": "The Bedside Table in African Cherry is a stylish and functional addition to your bedroom, providing convenient storage space and a touch of elegance. Development demonstration listing; specifications and images are illustrative.",
+      "price": 29999,
+      "originalPrice": 37077,
+      "brand": "Furniture Co.",
+      "slug": "home-living",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/1.webp",
+        "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/2.webp",
+        "https://cdn.dummyjson.com/product-images/furniture/bedside-table-african-cherry/3.webp"
+      ],
+      "stock": 60,
+      "featured": false,
+      "specifications": {
+        "Brand": "Furniture Co.",
+        "SKU": "FUR-FUR-BED-013",
+        "Warranty": "5 year warranty"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-kitchen-appliances-3",
+      "name": "Black Whisk",
+      "description": "The Black Whisk is a kitchen essential for whisking and beating ingredients. Its ergonomic handle and sleek design make it a practical and stylish tool. Development demonstration listing; specifications and images are illustrative.",
+      "price": 999,
+      "originalPrice": 1113,
+      "brand": "MarketHub",
+      "slug": "kitchen-appliances",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/black-whisk/1.webp"
+      ],
+      "stock": 60,
+      "featured": false,
+      "specifications": {
+        "Brand": "MarketHub",
+        "SKU": "KIT-BRD-BLA-050",
+        "Warranty": "3 months warranty"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-beauty-personal-care-3",
+      "name": "Powder Canister",
+      "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish. Development demonstration listing; specifications and images are illustrative.",
+      "price": 1499,
+      "originalPrice": 1663,
+      "brand": "Velvet Touch",
+      "slug": "beauty-personal-care",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/beauty/powder-canister/1.webp"
+      ],
+      "stock": 60,
+      "featured": false,
+      "specifications": {
+        "Brand": "Velvet Touch",
+        "SKU": "BEA-VEL-POW-003",
+        "Warranty": "3 months warranty"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-sports-fitness-3",
+      "name": "Baseball Glove",
+      "description": "The Baseball Glove is a protective glove worn by baseball players. It is designed to catch and field the baseball, providing players with comfort and control during the game. Development demonstration listing; specifications and images are illustrative.",
+      "price": 2499,
+      "originalPrice": 2574,
+      "brand": "MarketHub",
+      "slug": "sports-fitness",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/baseball-glove/1.webp",
+        "https://cdn.dummyjson.com/product-images/sports-accessories/baseball-glove/2.webp",
+        "https://cdn.dummyjson.com/product-images/sports-accessories/baseball-glove/3.webp"
+      ],
+      "stock": 22,
+      "featured": false,
+      "specifications": {
+        "Brand": "MarketHub",
+        "SKU": "SPO-BRD-BAS-139",
+        "Warranty": "Lifetime warranty"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-toys-games-3",
+      "name": "Plush Teddy Bear",
+      "description": "A thoughtfully designed everyday favorite. Plush Teddy Bear is a demonstration product with an illustrative product image. Check the selling store for final product specifications.",
+      "price": 1999,
+      "originalPrice": 2499,
+      "brand": "MarketHub",
+      "slug": "toys-games",
+      "images": [
+        "/images/toys-games-2.svg"
+      ],
+      "stock": 24,
+      "featured": false,
+      "specifications": {
+        "Collection": "MarketHub Everyday",
+        "Product type": "Demonstration listing"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-books-stationery-3",
+      "name": "Essential Sketchbook Set",
+      "description": "A thoughtfully designed everyday favorite. Essential Sketchbook Set is a demonstration product with an illustrative product image. Check the selling store for final product specifications.",
+      "price": 1999,
+      "originalPrice": 2499,
+      "brand": "MarketHub",
+      "slug": "books-stationery",
+      "images": [
+        "/images/books-stationery-2.svg"
+      ],
+      "stock": 24,
+      "featured": false,
+      "specifications": {
+        "Collection": "MarketHub Everyday",
+        "Product type": "Demonstration listing"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-automotive-accessories-3",
+      "name": "Microfiber Car Care Cloth Set",
+      "description": "Microfiber Car Care Cloth Set for a better organized journey. Development demonstration product with an illustrative image.",
+      "price": 1499,
+      "originalPrice": 1999,
+      "brand": "MarketHub",
+      "slug": "automotive-accessories",
+      "images": [
+        "/images/automotive-2.svg"
+      ],
+      "stock": 10,
+      "featured": false,
+      "specifications": {
+        "Collection": "MarketHub Auto",
+        "Product type": "Demonstration accessory"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-electronics-4",
+      "name": "Rolex Cellini Moonphase",
+      "description": "The Rolex Cellini Moonphase is a masterpiece of horology, featuring a moon phase complication and exquisite design. It reflects Rolex's commitment to precision and elegance. Development demonstration listing; specifications and images are illustrative.",
+      "price": 1299999,
+      "originalPrice": 1576138,
+      "brand": "Rolex",
+      "slug": "electronics",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/1.webp",
+        "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/2.webp",
+        "https://cdn.dummyjson.com/product-images/mens-watches/rolex-cellini-moonphase/3.webp"
+      ],
+      "stock": 36,
+      "featured": false,
+      "specifications": {
+        "Brand": "Rolex",
+        "SKU": "MEN-ROL-ROL-096",
+        "Warranty": "6 months warranty"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-mobile-phones-4",
+      "name": "Apple Airpower Wireless Charger",
+      "description": "The Apple AirPower Wireless Charger provides a convenient way to charge your compatible Apple devices wirelessly. Simply place your devices on the charging mat for effortless charging. Development demonstration listing; specifications and images are illustrative.",
+      "price": 7999,
+      "originalPrice": 8374,
+      "brand": "Apple",
+      "slug": "mobile-phones",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mobile-accessories/apple-airpower-wireless-charger/1.webp"
+      ],
+      "stock": 0,
+      "featured": false,
+      "specifications": {
+        "Brand": "Apple",
+        "SKU": "MOB-APP-APP-102",
+        "Warranty": "2 year warranty"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-computers-laptops-4",
+      "name": "Lenovo Yoga 920",
+      "description": "The Lenovo Yoga 920 is a 2-in-1 convertible laptop with a flexible hinge, allowing you to use it as a laptop or tablet, offering versatility and portability. Development demonstration listing; specifications and images are illustrative.",
+      "price": 109999,
+      "originalPrice": 117709,
+      "brand": "Lenovo",
+      "slug": "computers-laptops",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/1.webp",
+        "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/2.webp",
+        "https://cdn.dummyjson.com/product-images/laptops/lenovo-yoga-920/3.webp"
+      ],
+      "stock": 40,
+      "featured": false,
+      "specifications": {
+        "Brand": "Lenovo",
+        "SKU": "LAP-LEN-LEN-081",
+        "Warranty": "6 months warranty"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-fashion-clothing-4",
+      "name": "Man Short Sleeve Shirt",
+      "description": "The Man Short Sleeve Shirt is a breezy and stylish option for warm days. With a comfortable fit and short sleeves, it's perfect for a laid-back yet polished look. Development demonstration listing; specifications and images are illustrative.",
+      "price": 1999,
+      "originalPrice": 2146,
+      "brand": "Casual Comfort",
+      "slug": "fashion-clothing",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/1.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/2.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shirts/man-short-sleeve-shirt/3.webp"
+      ],
+      "stock": 2,
+      "featured": false,
+      "specifications": {
+        "Brand": "Casual Comfort",
+        "SKU": "MEN-CAS-SHO-086",
+        "Warranty": "3 year warranty"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-shoes-bags-4",
+      "name": "Sports Sneakers Off White & Red",
+      "description": "The Sports Sneakers in Off White and Red combine style and functionality, making them a fashionable choice for sports enthusiasts. The red and off-white color combination adds a bold and energetic touch. Development demonstration listing; specifications and images are illustrative.",
+      "price": 11999,
+      "originalPrice": 12627,
+      "brand": "Off White",
+      "slug": "shoes-bags",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-&-red/1.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-&-red/2.webp",
+        "https://cdn.dummyjson.com/product-images/mens-shoes/sports-sneakers-off-white-&-red/3.webp"
+      ],
+      "stock": 17,
+      "featured": false,
+      "specifications": {
+        "Brand": "Off White",
+        "SKU": "MEN-OFF-SPO-091",
+        "Warranty": "1 week warranty"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-home-living-4",
+      "name": "Knoll Saarinen Executive Conference Chair",
+      "description": "The Knoll Saarinen Executive Conference Chair is a modern and ergonomic chair, perfect for your office or conference room with its timeless design. Development demonstration listing; specifications and images are illustrative.",
+      "price": 49999,
+      "originalPrice": 51025,
+      "brand": "Knoll",
+      "slug": "home-living",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/1.webp",
+        "https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/2.webp",
+        "https://cdn.dummyjson.com/product-images/furniture/knoll-saarinen-executive-conference-chair/3.webp"
+      ],
+      "stock": 26,
+      "featured": false,
+      "specifications": {
+        "Brand": "Knoll",
+        "SKU": "FUR-KNO-KNO-014",
+        "Warranty": "2 year warranty"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-kitchen-appliances-4",
+      "name": "Boxed Blender",
+      "description": "The Boxed Blender is a powerful and compact blender perfect for smoothies, shakes, and more. Its convenient design and multiple functions make it a versatile kitchen appliance. Development demonstration listing; specifications and images are illustrative.",
+      "price": 3999,
+      "originalPrice": 4312,
+      "brand": "MarketHub",
+      "slug": "kitchen-appliances",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/boxed-blender/1.webp",
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/boxed-blender/2.webp",
+        "https://cdn.dummyjson.com/product-images/kitchen-accessories/boxed-blender/3.webp"
+      ],
+      "stock": 9,
+      "featured": false,
+      "specifications": {
+        "Brand": "MarketHub",
+        "SKU": "KIT-BRD-BOX-051",
+        "Warranty": "5 year warranty"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-beauty-personal-care-4",
+      "name": "Red Lipstick",
+      "description": "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish. Development demonstration listing; specifications and images are illustrative.",
+      "price": 1299,
+      "originalPrice": 1479,
+      "brand": "Chic Cosmetics",
+      "slug": "beauty-personal-care",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/beauty/red-lipstick/1.webp"
+      ],
+      "stock": 60,
+      "featured": false,
+      "specifications": {
+        "Brand": "Chic Cosmetics",
+        "SKU": "BEA-CHI-LIP-004",
+        "Warranty": "3 year warranty"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-sports-fitness-4",
+      "name": "Basketball",
+      "description": "The Basketball is a standard ball used in basketball games. It is designed for dribbling, shooting, and passing in the game of basketball, suitable for both indoor and outdoor play. Development demonstration listing; specifications and images are illustrative.",
+      "price": 1499,
+      "originalPrice": 1619,
+      "brand": "MarketHub",
+      "slug": "sports-fitness",
+      "images": [
+        "https://cdn.dummyjson.com/product-images/sports-accessories/basketball/1.webp"
+      ],
+      "stock": 60,
+      "featured": false,
+      "specifications": {
+        "Brand": "MarketHub",
+        "SKU": "SPO-BRD-BAS-140",
+        "Warranty": "1 year warranty"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-toys-games-4",
+      "name": "Rainbow Stacking Rings",
+      "description": "A thoughtfully designed everyday favorite. Rainbow Stacking Rings is a demonstration product with an illustrative product image. Check the selling store for final product specifications.",
+      "price": 1499,
+      "originalPrice": 1999,
+      "brand": "MarketHub",
+      "slug": "toys-games",
+      "images": [
+        "/images/toys-games-3.svg"
+      ],
+      "stock": 24,
+      "featured": false,
+      "specifications": {
+        "Collection": "MarketHub Everyday",
+        "Product type": "Demonstration listing"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-books-stationery-4",
+      "name": "Premium Writing Pencil Set",
+      "description": "A thoughtfully designed everyday favorite. Premium Writing Pencil Set is a demonstration product with an illustrative product image. Check the selling store for final product specifications.",
+      "price": 1499,
+      "originalPrice": 1999,
+      "brand": "MarketHub",
+      "slug": "books-stationery",
+      "images": [
+        "/images/books-stationery-3.svg"
+      ],
+      "stock": 24,
+      "featured": false,
+      "specifications": {
+        "Collection": "MarketHub Everyday",
+        "Product type": "Demonstration listing"
+      }
+    },
+    {
+      "demoKey": "markethub-v2-automotive-accessories-4",
+      "name": "Foldable Trunk Organizer",
+      "description": "Foldable Trunk Organizer for a better organized journey. Development demonstration product with an illustrative image.",
+      "price": 3499,
+      "originalPrice": 4499,
+      "brand": "MarketHub",
+      "slug": "automotive-accessories",
+      "images": [
+        "/images/automotive-3.svg"
+      ],
+      "stock": 60,
+      "featured": false,
+      "specifications": {
+        "Collection": "MarketHub Auto",
+        "Product type": "Demonstration accessory"
+      }
+    }
+  ]
+}

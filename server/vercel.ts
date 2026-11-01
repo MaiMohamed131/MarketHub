@@ -17,7 +17,24 @@ export default async function handler(req: Request, res: Response) {
       connecting = undefined;
     }
     app(req, res);
-  } catch {
+  } catch (error: any) {
+    // Log diagnostic codes only; never log connection strings or credentials.
+    const servers = error?.reason?.servers;
+    console.error("MarketHub database connection failed", {
+      name: error?.name,
+      code: error?.code,
+      networkCodes:
+        servers instanceof Map
+          ? [...servers.values()]
+              .map(
+                (server: any) =>
+                  server.error?.cause?.code ||
+                  server.error?.code ||
+                  server.error?.name,
+              )
+              .filter(Boolean)
+          : [],
+    });
     connecting = undefined;
     res.statusCode = 503;
     res.setHeader("Content-Type", "application/json");

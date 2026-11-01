@@ -16,6 +16,10 @@ export default async function handler(req: Request, res: Response) {
       await connecting;
       connecting = undefined;
     }
+    // Vercel supplies its own query object, including rewrite parameters.
+    // Let Express parse the original URL so routing metadata cannot become
+    // product filters (and unknown client parameters still fail validation).
+    Reflect.deleteProperty(req, "query");
     app(req, res);
   } catch (error: any) {
     // Log diagnostic codes only; never log connection strings or credentials.

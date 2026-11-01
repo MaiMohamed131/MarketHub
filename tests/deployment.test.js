@@ -4,6 +4,7 @@ import express from "express";
 import mongoose from "mongoose";
 import handler from "../dist/vercel.js";
 import { clientOrigin } from "../dist/environment.js";
+import { Product } from "../dist/catalog-models.js";
 const oldUri = process.env.MONGODB_URI;
 const oldOrigin = process.env.CLIENT_ORIGIN;
 const oldDomain = process.env.VERCEL_PROJECT_PRODUCTION_URL;
@@ -50,4 +51,19 @@ test("cold-start database failure returns a generic response and retries next re
   }
   expect(connect).toHaveBeenCalledTimes(2);
   delete process.env.MONGODB_URI;
+});
+
+test("Vercel query metadata cannot replace the original URL filters", async () => {
+  mongoose.connection._readyState = 1;
+  const find = jest.spyOn(Product, "find").mockImplementation(() => {
+    throw Error("Invalid URL filters must fail before reading products");
+  });
+  const server = express().use((req, res, next) => {
+    Object.defineProperty(req, "query", { configurable: true, writable: true,
+      value: { path: "products", sort: "newest" } });
+    next();
+  }).use(handler);
+  const response = await request(server).get("/api/products?sort=invalid");
+  expect(response.status).toBe(400);
+  expect(find).not.toHaveBeenCalled();
 });
